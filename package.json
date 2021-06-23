@@ -1,0 +1,20 @@
+{
+  "name": "scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon scrape.js",
+    "start": "node scrape.js"
+  },
+  "keywords": [],
+  "author": "drk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "indeed-job-scraper": "^2.1.0"
+  }
+}

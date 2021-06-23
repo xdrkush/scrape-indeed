@@ -1,0 +1,41 @@
+<h1>Scrape</h1>
+
+<div class="container">
+
+    <form class="row" action="/" method="POST">
+
+        <div class="col-6">
+            <input type="text" class="form-control" name='search'>
+        </div>
+
+        <select class="col-3" name='chooseLang' aria-label="Default select example">
+            <option selected>Choose langue</option>
+            <option value="fr">France</option>
+            <option value="de">Deutchland</option>
+            <option value="us">USA</option>
+        </select>
+
+        <button class="btn btn-success col-3">Rechercher</button>
+    </form>
+
+</div>
+
+<div class="container">
+    <div class="row">
+
+        {{#each jobs }}
+
+        <div class="card border-info mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <a href="{{ this.link }}">{{ this.title }}</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">{{ this.company }}</h5>
+                <p class="card-text">{{ this.summary }}</p>
+            </div>
+        </div>
+
+        {{/each }}
+
+    </div>
+</div>

@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      "indeed-job-scraper@2.1.0",
+      "/home/hsuk/Bureau/scrape"
+    ]
+  ],
+  "_from": "indeed-job-scraper@2.1.0",
+  "_id": "indeed-job-scraper@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-QGzvxixh2kuXRHoT8QNWazkPAtYQFNxmwJ+vpM/qBfnBYBUiAtioWu7vCcE5/opQulr5Bqdn1rbAbHrh3Hjr5A==",
+  "_location": "/indeed-job-scraper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "indeed-job-scraper@2.1.0",
+    "name": "indeed-job-scraper",
+    "escapedName": "indeed-job-scraper",
+    "rawSpec": "2.1.0",
+    "saveSpec": null,
+    "fetchSpec": "2.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/indeed-job-scraper/-/indeed-job-scraper-2.1.0.tgz",
+  "_spec": "2.1.0",
+  "_where": "/home/hsuk/Bureau/scrape",
+  "author": {
+    "name": "Kirollos Nasr"
+  },
+  "bugs": {
+    "url": "https://github.com/ShenoudaGergis/Indeed-scraper/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "html-pdf": "^2.2.0"
+  },
+  "description": "A node application to fetch jobs from indeed website",
+  "devDependencies": {
+    "@types/node": "^14.14.39"
+  },
+  "homepage": "https://github.com/ShenoudaGergis/Indeed-scraper",
+  "keywords": [
+    "scrape",
+    "indeed",
+    "parse"
+  ],
+  "license": "MIT",
+  "main": "./main.js",
+  "name": "indeed-job-scraper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenoudaGergis/Indeed-scraper.git"
+  },
+  "version": "2.1.0"
+}
